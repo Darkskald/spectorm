@@ -5,6 +5,7 @@ import numpy as np
 from scipy.integrate import simps as sp
 from scipy.integrate import trapz as tp
 
+
 class MetaSpectrum(type):
 
     def __call__(cls, *args, **kwargs):

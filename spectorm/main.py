@@ -8,6 +8,9 @@ class ApplicationContext:
         # basic path for plots
         self.plot_path = None
 
+        # path for log files
+        self.log_path = None
+
         # target database
         self.database_type = "sqlite"
 
@@ -37,7 +40,6 @@ class ApplicationContext:
             return spec_list
 
 
-# todo: make exception module, customize exceptions
 # todo: add knowledge about metaclass, docstrings and custom exception to markdown notes
 # todo: implement a filter-based method of MetaSpectrum to check all attributes necessary for spectrum creation
 # todo: ensure that an initial table spec_types is generated
